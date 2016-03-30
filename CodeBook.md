@@ -57,16 +57,16 @@ The following files are available for the train and test data. Their description
 
 ## Implementation
 
-Loads libraries data.table and dplyr
-Reads the subject, activity and features data and metadata using read.table
-Merges test and train data using rbind
-Merges all data (subject, activity and features) into one using cbind
-Extract the columns with mean or std using grep
-Get new data using the extracted columns + subject + activity
-Add descriptive activity levels using activity labels metadata
-Using gsub, substitute variable names into more meaningful ones.
-Create a today dataset using lapply
-Write data to a file using write.table
+* Loads libraries data.table and dplyr
+* Reads the subject, activity and features data and metadata using read.table
+* Merges test and train data using rbind
+* Merges all data (subject, activity and features) into one using cbind
+* Extract the columns with mean or std using grep
+* Get new data using the extracted columns + subject + activity
+* Add descriptive activity levels using activity labels metadata
+* Using gsub, substitute variable names into more meaningful ones.
+* Create a today dataset using lapply
+* Write data to a file using write.table
 
 
 
